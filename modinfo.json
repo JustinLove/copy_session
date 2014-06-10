@@ -1,0 +1,24 @@
+{
+  "author": "wondible",
+  "build": "66943",
+  "category": ["in-game", "ui"],
+  "context": "client",
+  "date": "2014/06/10",
+  "description": "Hit your system copy command to put an auto-login terminal command on your clipboard.",
+  "display_name": "Copy Session",
+  "enabled": true,
+  "forum": null,
+  "id": "copy_session",
+  "identifier": "com.wondible.pa.copy_session",
+  "priority": 100,
+  "requires": [],
+  "scenes": {
+    "start": [
+      "coui://ui/mods/copy_session/copy_session.css",
+      "coui://ui/mods/copy_session/copy_session.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
